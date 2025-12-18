@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <title>Louis Trần & Linh Soo | Thiệp Cưới</title>
+
+    <!-- SEO -->
+    <meta name="title" content="Louis Trần & Linh Soo | Thiệp Cưới" />
+    <meta
+      name="description"
+      content="Trân trọng kính mời bạn đến tham dự lễ cưới của Louis Trần & Linh Soo. Sự hiện diện của bạn là niềm vinh hạnh cho gia đình chúng tôi."
+    />
+
+    <!-- Open Graph (Facebook, Zalo, Telegram) -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Louis Trần & Linh Soo | Thiệp Cưới" />
+    <meta
+      property="og:description"
+      content="Trân trọng kính mời bạn đến tham dự lễ cưới của Louis Trần & Linh Soo."
+    />
+    <meta
+      property="og:image"
+      content="https://res.cloudinary.com/dooptsu3i/image/upload/v1765721178/z7326819486463_bae8df737e379d9470e77eadf9fde1fc_izzkfp.jpg"
+    />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:locale" content="vi_VN" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Louis Trần & Linh Soo | Thiệp Cưới" />
+    <meta
+      name="twitter:description"
+      content="Trân trọng kính mời bạn đến tham dự lễ cưới của Louis Trần & Linh Soo."
+    />
+    <meta
+      name="twitter:image"
+      content="https://res.cloudinary.com/dooptsu3i/image/upload/v1765721178/z7326819486463_bae8df737e379d9470e77eadf9fde1fc_izzkfp.jpg"
+    />
+
+    <!-- Favicon JPG -->
+    <link
+      rel="icon"
+      type="image/jpeg"
+      href="https://res.cloudinary.com/dooptsu3i/image/upload/v1766023570/z7338494214529_9881966ebb9389c3b51d07664c49a7d4_wir544.jpg"
+    />
+
+    <!-- Apple Touch Icon (JPG vẫn dùng được) -->
+    <link
+      rel="apple-touch-icon"
+      href="https://res.cloudinary.com/dooptsu3i/image/upload/v1766023570/z7338494214529_9881966ebb9389c3b51d07664c49a7d4_wir544.jpg"
+    />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- Great Vibes for script/heading, Nunito for body -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Nunito:wght@300;400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              brand: {
+                light: "#E8F5E9", // Xanh lá non pastel
+                DEFAULT: "#4CAF50",
+                dark: "#1A4D2E", // Xanh lá đậm
+                gold: "#D4AF37", // Vàng gold
+                cream: "#F9F9F7", // Kem giấy ấm
+                surface: "#FFFFFF",
+              },
+            },
+            fontFamily: {
+              script: ['"Great Vibes"', "cursive"],
+              body: ['"Nunito"', "sans-serif"],
+            },
+            animation: {
+              float: "float 6s ease-in-out infinite",
+              "float-slow": "float 10s ease-in-out infinite",
+              "pulse-slow": "pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite",
+              "scroll-up": "scrollUp 35s linear infinite",
+              "scroll-down": "scrollDown 35s linear infinite",
+              "scroll-left": "scrollLeft 20s linear infinite",
+              blob: "blob 7s infinite",
+            },
+            keyframes: {
+              float: {
+                "0%, 100%": { transform: "translateY(0)" },
+                "50%": { transform: "translateY(-10px)" },
+              },
+              blob: {
+                "0%": { transform: "translate(0px, 0px) scale(1)" },
+                "33%": { transform: "translate(30px, -50px) scale(1.1)" },
+                "66%": { transform: "translate(-20px, 20px) scale(0.9)" },
+                "100%": { transform: "translate(0px, 0px) scale(1)" },
+              },
+              scrollUp: {
+                "0%": { transform: "translateY(0)" },
+                "100%": { transform: "translateY(-50%)" },
+              },
+              scrollDown: {
+                "0%": { transform: "translateY(-50%)" },
+                "100%": { transform: "translateY(0)" },
+              },
+              scrollLeft: {
+                "0%": { transform: "translateX(0)" },
+                "100%": { transform: "translateX(-50%)" },
+              },
+            },
+          },
+        },
+      };
+    </script>
+    <style>
+      /* Smooth scrolling for anchor links */
+      html {
+        scroll-behavior: smooth;
+      }
+
+      /* Hide scrollbar globally for all browsers */
+      ::-webkit-scrollbar {
+        display: none;
+      }
+      html,
+      body {
+        -ms-overflow-style: none; /* IE and Edge */
+        scrollbar-width: none; /* Firefox */
+      }
+
+      /* Noise Texture Class - OPTIMIZED */
+      /* Replaced heavy SVG filter with a static lightweight base64 noise image for better performance */
+      .bg-noise {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        pointer-events: none;
+        z-index: -1;
+        opacity: 0.05;
+        background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyBAMAAADsEZWCAAAAGFBMVEUAAAA5OTkAAABMTExERERmZmYzMzMyMjJ4FE9dAAAACHRSTlMAMwA3M2YzM7t0EaIAAAABYktHRACIBR1IAAAAJElEQVQ4y2NgwA0YmBhYGJg4GJgEGBh4GJh4GJgEGBh4GJg4AAAO6ABF1bYtEAAAAABJRU5ErkJggg==");
+        background-repeat: repeat;
+      }
+    </style>
+    <script type="importmap">
+      {
+        "imports": {
+          "react": "https://aistudiocdn.com/react@^19.2.1",
+          "react/": "https://aistudiocdn.com/react@^19.2.1/",
+          "framer-motion": "https://aistudiocdn.com/framer-motion@^12.23.25",
+          "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.1/"
+        }
+      }
+    </script>
+    <link rel="stylesheet" href="/index.css" />
+  </head>
+  <body
+    class="bg-brand-cream text-gray-800 antialiased overflow-x-hidden selection:bg-brand-dark selection:text-white"
+  >
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
